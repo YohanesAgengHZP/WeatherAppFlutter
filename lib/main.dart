@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:weather_app/HomePage.dart';
+import 'LoginPage.dart';
 
 void main() {
   runApp(MyApp());
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
           displayColor: Colors.blue
         ),
       ),
-      home: HomePage(),
+      home: login_screen(),
     );
   }
 }

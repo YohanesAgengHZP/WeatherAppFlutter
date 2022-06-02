@@ -36,7 +36,7 @@ class Cuaca_Tambahan extends StatelessWidget {
         Column(
           children: [
             Icon(
-              CupertinoIcons.wind,
+              CupertinoIcons.drop,
               color: Colors.white,
             ),
             SizedBox(
@@ -58,7 +58,7 @@ class Cuaca_Tambahan extends StatelessWidget {
         Column(
           children: [
             Icon(
-              CupertinoIcons.wind,
+              CupertinoIcons.cloud_rain,
               color: Colors.white,
             ),
             SizedBox(

@@ -3,6 +3,7 @@ import 'package:weather_app/CuacaLain/CuacaTambahan.dart';
 import 'package:weather_app/Data/dataset.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_glow/flutter_glow.dart';
+import 'package:weather_app/SettingPage.dart';
 
 class HalamanDetail extends StatelessWidget {
   Weather cuacaBesok;
@@ -57,7 +58,18 @@ class CuacaBesok extends StatelessWidget {
                     )
                   ],
                 ),
-                Icon(Icons.more_vert, color: Colors.white)
+                GestureDetector(
+                    onTap: () {
+                      Navigator.push(context,
+                        MaterialPageRoute(builder: (BuildContext context){
+                          return ScreenProfile();
+                        }),
+                      );
+                    },
+                    child: Icon(
+                      Icons.more_vert,
+                      color: Colors.white,
+                    )),
               ],
             ),
           ),

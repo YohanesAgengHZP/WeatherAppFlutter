@@ -151,7 +151,9 @@ class _CuacaSekarangState extends State<CuacaSekarang> {
                     border: OutlineInputBorder(borderRadius: BorderRadius.circular(5)),
                     fillColor: Color(0xff030317),
                     filled: true,
-                    hintText:"Enter a city Name"
+                    hintText:"Masukkan Nama Kota",
+                    hintStyle: TextStyle(color: Colors.white),
+                    labelStyle: TextStyle(color: Colors.white),
                 ),
                 textInputAction: TextInputAction.search,
                 onSubmitted: (value)async{
